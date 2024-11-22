@@ -16,8 +16,6 @@ function gradient(hash: number, x: number, y: number): number {
 function perlinNoise(x: number, y: number): number {
     const xi = Math.floor(x) & 255;
     const yi = Math.floor(y) & 255;
-    // const xf = x + 1;
-    // const yf = y + 1;
 
     const xf = x - Math.floor(x);
     const yf = y - Math.floor(y);
